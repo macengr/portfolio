@@ -19,8 +19,8 @@ h1 {
 	font-weight: lighter;
 }
 
-div.app {
-    display: -webkit-flex; <!-- for safari --!>
+app {
+    display: -webkit-flex; /* for safari */
     display: flex;
 }
 
