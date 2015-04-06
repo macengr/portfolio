@@ -1,6 +1,5 @@
-* {
-   outline: 1px solid red !important;
-}
+/*   outline: 1px solid red !important;
+} */
 
 *{
 	-webkit-box-sizing:border-box;
@@ -9,15 +8,36 @@
 	box-sizing:border-box;
 }
 
+h1 {
+	color: white;
+	background-color: #33BEBE;
+	height: 75px;
+	max-width: 100%;
+	padding-top: 34px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+
+div.app {
+    display: -webkit-flex; <!-- for safari --!>
+    display: flex;
+}
+
+
 div.image {
 	max-width:460px;
 }
 
 div.description {
 	max-width:705px;
+	margin-left: 10px;
+	color: #7C8B88;
+	font-family: sans-serif;
+	font-weight: lighter;
 }
 
-.app {
-    display: -webkit-flex; <!-- for safari --!>
-    display: flex;
-}
+
+
+
+
